@@ -1,15 +1,15 @@
 
 import './App.css'
-import React from 'react';
-
+import Header from './components/Header/Header'
+import SingleProduct from './components/SingleProduct/SingleProduct'
 function App() {
 
 
   return (
     <>
-     <div className="bg-blue-500 text-white p-4">
-      Hello, Tailwind CSS!
-    </div>
+    
+    <Header></Header>
+    <SingleProduct></SingleProduct>
     </>
   )
 }
