@@ -2,6 +2,7 @@ import Image from "../../components/UI/Image";
 import Content from "../UI/Content";
 import Specifications from "../UI/Specifications";
 import productImage from '..//../assets/images/xiaomi-redmi-note-11s-5g-G4305-1650508487726.jpg'
+import Subscribe from "../UI/Subscribe";
 import News from "../UI/News";
 import Accessory from "../UI/Accessory";
 import Advise from "../UI/Advise";
@@ -28,6 +29,7 @@ const SingleProduct = () => {
                         <Specifications info={info}></Specifications>
                         <Advise></Advise>
                         <News news={news}></News>
+                        <Subscribe></Subscribe>
                     </div>
                 </div>
             </div>

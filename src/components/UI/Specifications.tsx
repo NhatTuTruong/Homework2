@@ -30,7 +30,7 @@ const Specifications = ({ info }: { info: any }) => {
     return (
         <>
             <div className="description rounded-lg p-6">
-                <p className="mb-2 text-lg  text-gray dark:text-white">VÌ SAO BẠN NÊN CHỌN</p>
+                <p className="mb-2 text-lg  text-gray ">VÌ SAO BẠN NÊN CHỌN</p>
                 <ul className="max-w-md space-y-1 list-none text-gray pl-5 list-inside dark:text-gray-400">
                     {
                         info.map((item: any) => (
@@ -42,7 +42,7 @@ const Specifications = ({ info }: { info: any }) => {
                 </ul>
             </div>
             <div className='p-6'>
-            <p className="mb-2 text-lg  text-gray dark:text-white">Thông số sản phẩm</p>
+            <p className="mb-2 text-lg  text-gray ">Thông số sản phẩm</p>
                 <table className="table-auto">
                     <tbody>
                         {

@@ -5,7 +5,7 @@ const Accessory = ({ accessory }: { accessory: any }) => {
     return (
         <>
             <div className="description rounded-lg p-6" >
-                <p className="mb-2 text-xl  text-gray dark:text-white">Phụ kiện tương thích</p>
+                <p className="mb-2 text-xl  text-gray ">Phụ kiện tương thích</p>
                 <div className='grid grid-cols-4 gap-4 p-2' >
                     {
                         accessory.map((item: any) => (

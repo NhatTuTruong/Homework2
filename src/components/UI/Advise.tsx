@@ -21,7 +21,7 @@ const Advise = () => {
     return (
         <>
             <div className="description rounded-lg p-6">
-                <p className="mb-2 text-lg  text-gray dark:text-white">Gọi lại tư vấn</p>
+                <p className="mb-2 text-lg  text-gray ">Gọi lại tư vấn</p>
                 <p>Bạn muốn chúng tôi gọi lại tư vấn, vui lòng điền số điện thoại vào form dưới đây</p>
                 <form className="flex items-center pt-4" onSubmit={() => HandleSubmit()}>
                     <label htmlFor="voice-search" className="sr-only">Search</label>

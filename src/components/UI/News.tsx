@@ -4,7 +4,7 @@ const News = ({news}: {news: any}) => {
     return (
         <>
            <div className="description rounded-lg p-6" >
-                <p className="mb-2 text-lg  text-gray dark:text-white">Tin tức liên quan</p>
+                <p className="mb-2 text-lg  text-gray ">Tin tức liên quan</p>
                 {
                     news.map((item : any) => (
                         <div className="grid grid-cols-3 gap-6 sm:grid-cols-3 pb-2" key={item.content}>
