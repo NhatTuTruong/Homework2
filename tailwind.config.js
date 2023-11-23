@@ -13,7 +13,8 @@ export default {
       gray_ddd:"#ddd",
       white:"#ffff",
       red_b10000: "#b10000",
-      black:"#000"
+      black:"#000",
+      bluer:"#1555d9"
     },
   },
   plugins: [],

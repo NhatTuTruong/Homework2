@@ -9,3 +9,13 @@
     float: left;
     margin-top: 5px;
 }
+.form-001{
+    background: url('./assets/images/chica-con-mascarilla-arte-digital-6789.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-004{
+    background: url('./assets/images/1366x768_px_landscape-789723.jpg!d');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

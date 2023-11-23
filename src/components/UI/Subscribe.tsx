@@ -4,7 +4,7 @@ import * as yup from "yup";
 
 	const schema = yup.object({
 		name: yup.string().required('Vui lòng nhập tên của bạn'),
-		phoneNumber: yup.number.required('Vui lòng nhập số điện thoại của bạn').positive().integer(),
+		phoneNumber: yup.number().required('Vui lòng nhập số điện thoại của bạn').positive().integer(),
 		email: yup.string().email('Nhập đúng định dạng email').required('Vui lòng nhập email của bạn'),
 	}).required();
 type FormData = yup.InferType<typeof schema>;
